@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+<body>
+     <!--inicio menu pag-->
+
+     <nav>
+        <ul class="menu">
+
+            <li class="logo">
+               
+                <!--img logo-->
+                <img src="./img/logo.png" alt="">
+            
+            </li>
+            <li><a href="./index.html">inicio<a></a></li>
+            <li><a href="./contactenos.html">Contactenos<a></a></li>
+           <!-- <li><a href="#">Materias<a></a></li>-->
+        </ul>
+    </nav>
+    <!--fin del menu pag-->
+
+    <div class="container">
+        <h1> Formulario Personajes  Rick & Morty</h1>
+        
+        <div>
+            <form action="" method="post">
+                <div class="section-flex">
+                    <div class="element-form">
+                        <div class="label">
+                            <label for="type"> Tipo de Mensaje</label>
+                        </div>
+
+                        <select name="" id="">
+                            <option value=""> Seleccionar una opcion</option>
+                            <option value="cotizacion"> Cotizacion</option>
+                            <option value="saludo"> Saludo</option>
+                            <option value="queja"> Queja</option>
+                        </select>
+                    </div>
+
+                    <div class="element-form">
+                        <div class="label">
+                            <label for="name"> Nombres</label>
+                        </div>
+
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombe completo">
+
+
+                    </div>
+
+                    <div class="element-form">
+                        <div class="label">
+                            <label for="name"> Email</label>
+                        </div>
+
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com">
+
+
+                    </div>
+
+                    <div class="element-form">
+                        <div class="label">
+                            <label for="name"> Celular</label>
+                        </div>
+
+                        <input type="text" name="phone" id="phone" placeholder="Ingrese su celular">
+
+
+                    </div>
+
+                    <div class="element-form">
+                        <div class="label">
+                            <label for="comment"> Comentarios</label>
+                        </div>
+
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+                    </div>
+
+                    <div class="btn-div">
+                        <button type="submit" onclick="validaciondatos"> Enviar datos</button>
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>creado por: Juan Miguel Sánchez Restrepo</p>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
